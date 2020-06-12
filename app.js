@@ -457,6 +457,8 @@ MongoClient.connect(connection_string, {reconnectTries:99999999}, function(err, 
 				game = "aw";
 			} else if (req.hostname.indexOf('wowstactic') != -1) {
 				game = "wows";
+			} else if (req.hostname.indexOf('conquerorsblade') != -1 ){
+				game = "conquerorsblade";
 			} else {
 				game = "wot";
 			}
@@ -522,7 +524,7 @@ MongoClient.connect(connection_string, {reconnectTries:99999999}, function(err, 
 	  }
 	}
   	
-	var games = ['wot', 'aw', 'wows', 'blitz', 'lol', 'hots', 'sc2', 'csgo', 'warface', 'squad', 'R6', 'MWO', 'EC', 'propilkki2', 'pr', 'clans', 'foxhole', 'steelocean', 'pubg'];	
+	var games = ['wot', 'aw', 'wows', 'blitz', 'lol', 'hots', 'sc2', 'csgo', 'warface', 'squad', 'R6', 'MWO', 'EC', 'propilkki2', 'pr', 'clans', 'foxhole', 'steelocean', 'pubg','conquerorsblade'];	
 	games.forEach(function(game) {
 		router.get(['/' + game + '.html', '/' + game], function(req, res, next) {
 		  set_game(req, res, game);
