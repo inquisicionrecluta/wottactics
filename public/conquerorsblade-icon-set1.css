@@ -3,6 +3,12 @@
   background-image: url('conquerorsblade-icon-set1.png');
 }
 
+.conquerorsblade-icon-set1-alabarderos {
+  background-position: -0px -0px;
+  width: 40px;
+  height: 40px;
+}
+
 .conquerorsblade-icon-set1-arqueros_montados_yelmo_de_hierro {
   background-position: -0px -0px;
   width: 40px;
@@ -58,49 +64,49 @@
 }
 
 .conquerorsblade-icon-set1-caballeria_yelmo_de_hierro {
-  background-position: -0px -380px;
+  background-position: -0px -360px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-caballeros_monasticos {
-  background-position: -0px -420px;
+  background-position: -0px -400px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-condotieros {
-  background-position: -0px -460px;
+  background-position: -0px -440px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-coustilleux {
-  background-position: -0px -500px;
+  background-position: -0px -480px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-escuderos {
-  background-position: -0px -540px;
+  background-position: -0px -520px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-fusileros_kriegsrat {
-  background-position: -0px -580px;
+  background-position: -0px -560px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-guardas_de_palacio {
-  background-position: -0px -620px;
+  background-position: -0px -600px;
   width: 40px;
   height: 40px;
 }
 
 .conquerorsblade-icon-set1-guardas_de_prefectura {
-  background-position: -0px -660px;
+  background-position: -0px -640px;
   width: 40px;
   height: 40px;
 }
@@ -170,6 +176,7 @@
   width: 40px;
   height: 40px;
 }
+
 
 .conquerorsblade-icon-set1-sargentos_alabarderos {
   background-position: -0px -1140px;
