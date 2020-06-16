@@ -20,6 +20,7 @@
 <div class='icon_tabs'>
 	<ul class="nav nav-tabs" id="bottom_tabs">
 	  <li><a class="icon_group" id="extra_icons" data-toggle="tab" href="#extra_tab"><%=l('Extra')%></a></li>  
+	  <li><a class="icon_group" id="heroes_icons" data-toggle="tab" href="#heroes_tab"><%=l('Heroes')%></a></li>  
 	  <%if (user.identity) { %><li><a class="icon_group" id="custom_icons" data-toggle="tab" href="#custom_tab"><%=l('Custom')%></a></li><% } %>
 	  <li><a class="icon_group" id="tank_icons" data-toggle="tab" href="#tank_icons_tab"><%=l('Units')%></a></li>
 	  <li><a class="icon_group" id="contour_icons" data-toggle="tab" href="#contour_icons_tab"><%=l('Artillery')%></a></li>
@@ -53,6 +54,23 @@
 				<div id="extra_icons_menu"></div>				
 			</div>
 		</div>
+		<div class="tab-pane" id="heroes_tab">
+			<div class="row">
+				<div id="heroes_icons_list" data-path="conquerorsblade-icon-set3" data-scale="1.5" data-height="40" data-style="conquerorsblade-icon-set3.css" hidden>
+					arco-corto.png
+					arco-largo.png
+					asesino.png
+					espada-corta.png
+					espada-larga.png
+					guja.png
+					hacha-de-petos.png
+					lanza.png
+					mazo-de-guerra.png
+					trabuquete.png
+				</div>
+				<div id="heroes_icons_menu"></div>				
+			</div>
+		</div>		
 		<div class="tab-pane" id="tank_icons_tab">
 			<div class="row">
 				<div id="tank_icons_list" data-path="conquerorsblade-icon-set1" data-scale="2" data-height="40" data-no_color="true" data-style="conquerorsblade-icon-set1.css" hidden>
